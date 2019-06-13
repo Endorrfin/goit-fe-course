@@ -1,0 +1,90 @@
+body {
+    color: #626262; /* Цверт шрифта */
+    font-size: 14px; /* Размер шрифта */
+    line-height: 24px; /* Высота строк */
+    margin: 10px;
+    text-indent: 0px;
+    font-family: 'Playfair Display', 'Arial', sans-serif;
+}
+
+    nav {
+      width: 640px;
+      margin: auto;
+      /* background: #000000; */
+      padding: 40px;
+    }
+    
+    .menu {
+      list-style: none; /* Оформление списка - убираем, сбрасываем */
+    }
+
+    .menu a {
+      color: #626262;
+      font-weight: 400;
+      text-decoration: none;
+      /* padding: 3px 5px; */
+    }
+
+    .menu-item {
+      display: inline-block;
+      margin-right: 30px;
+      text-transform: uppercase; /* убирает подчеркивание ссылок */
+    }
+   
+    .menu-link {
+      display: block;
+      width: 75px;
+      text-align: center;
+    }
+
+     .menu a:hover {
+      color: #03a9f4;
+      background: #f0eeee; /* Фон при наведении курсора */
+      box-shadow: inset 0 0 25px 2px #ece9e7; /* Тень */
+      /* color: #626262; */
+      font-weight: 400;
+      /* padding: 3px 0px 5px 0px; */
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .PhotoCaption {
+    font-family: 'Ubuntu', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-indent: 0px;
+    color: #b4ad9e;
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  button {
+    /* border: 20px; */
+    text-transform: capitalize;
+  }
+
+
+  .visually-hidden:not(:focus):not(:active),
+    input[type="checkbox"].visually-hidden,
+    input[type="radio"].visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border:0;
+    padding: 0;
+    white-space:nowrap;
+    clip-path:inset(100%);
+    clip: rect(0 0 0 0);
+    overflow:hidden;
+}
