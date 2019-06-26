@@ -49,7 +49,6 @@ header {
 
 .site-logo {
   display: inline-block;
-  /* margin-right: 40px; */
   text-decoration: none;
   color: #626262;
   font-size: 30px;
@@ -69,14 +68,15 @@ header {
 }
 
 .site-navigation-list li {
-  float: right;
+  float: left;
 }
 
 .site-navigation-list li:not(:first-of-type) {
-  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .site-navigation-list a {
+  display: block;
   font-size: 14px;
   line-height: 14px;
   color: rgb(0, 0, 0);
@@ -196,7 +196,7 @@ header {
 .collection-section {
   margin: 0 auto;
   width: 1112px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 .collection-section h2 {
@@ -386,6 +386,7 @@ footer p {
 }
 
 footer a {
+  /* display: block; */
   text-decoration: none;
   color: #46bfa9;
 }
