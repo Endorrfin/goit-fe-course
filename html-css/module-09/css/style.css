@@ -28,6 +28,18 @@ input[type="radio"].vusually-hidden {
   overflow: hidden;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -53,26 +65,27 @@ main {
 }
 
 .container {
-  width: 320px;
+  /* width: 320px; */
   margin: 0 auto;
-  padding: 0 15px;
+  /* padding: 0 15px; */
 }
 
 /* NAVIGATION SECTION */
 
 .page-header {
-  width: 320px;
+  /* width: 320px; */
   height: 540px;
   margin: 0 auto;
   color: #ffffff;
   text-align: center;
+  padding-top: 32px;
 }
 
 .site-navigation {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   display: flex;
   justify-content: center;
-  margin-bottom: 86px;
+  /* margin-bottom: 86px; */
 }
 
 .site-navigation a {
@@ -81,7 +94,7 @@ main {
   text-align: center;
   width: 90px;
   height: 36px;
-  padding-top: 10px;
+  padding-top: 7px;
   border: 2px solid transparent;
   color: #ffffff;
   border-radius: 18px;
@@ -101,31 +114,35 @@ main {
   font-size: 20px;
   color: #ffffff;
   letter-spacing: 0.05em;
-  margin-bottom: 38px;
+  /* margin-bottom: 38px; */
   text-align: center;
 }
 
 .promo-info {
   display: block;
-  width: 320px;
   color: #ffffff;
   line-height: 1.2;
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 120px;
+  /* padding: 132px 0 0; */
 }
 
 .promo-info h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
   text-transform: uppercase;
-  margin-bottom: 14px;
+  /* margin-bottom: 14px; */
 }
 
 .promo-info p {
+  display: inline-block;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  /* line-height: 36px; */
   font-weight: 300;
+  text-align: center;
 }
 
 .find-parther {
@@ -150,6 +167,7 @@ main {
 .partner-section {
   margin: 0 auto;
   padding-top: 54px;
+  /* line-height: 36px; */
   text-align: center;
 }
 
@@ -171,7 +189,7 @@ main {
 
 .partner-list-item {
   display: block;
-  width: 240px;
+  max-width: 220px;
   margin: 0 auto;
 }
 
@@ -197,7 +215,7 @@ main {
   display: block;
   position: absolute;
   bottom: 0;
-  right: -3px;
+  right: -83px;
   width: 33px;
   height: 33px;
   border: 3px solid #ffffff;
