@@ -35,7 +35,7 @@ input[type="radio"].vusually-hidden {
 }
 
 img {
-  width: 100%;
+  /* width: 100%; */
   height: auto;
   display: block;
 }
@@ -215,7 +215,7 @@ main {
   display: block;
   position: absolute;
   bottom: 0;
-  right: -83px;
+  right: 0px;
   width: 33px;
   height: 33px;
   border: 3px solid #ffffff;
@@ -227,6 +227,12 @@ main {
 .partner-list-item:nth-child(3) picture::after {background: #1bd7ad url("../img/icon_03.png") no-repeat center;}
 .partner-list-item:nth-child(4) picture::after {background: #4e72db url("../img/icon_04.png") no-repeat center;}
 
+picture {
+  display: block;
+  width: 121px;
+  height: 121px;
+  margin: 0 auto;
+}
 
 .other-partners {
   display: block;
