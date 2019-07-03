@@ -1,4 +1,8 @@
-html {
+/* go */
+
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -46,7 +50,7 @@ ul {
   margin: 0 auto 30px;
   font-size: 16px;
   padding-top: 24px;
-  margin-bottom: 128px;
+  /* margin-bottom: 128px; */
 }
 
 .logo {
@@ -82,7 +86,7 @@ ul {
 .page-nav {
   display: flex;
   align-items: center;
-  min-height: 50px;
+  /* min-height: 50px; */
   /* padding: 9px 0; */
   justify-content: space-between;
 }
@@ -120,10 +124,12 @@ ul {
 
 .preview-text {
   font-size: 24px;
-  line-height: 28px;
+  /* line-height: 28px; */
   font-family: "Kaushan Script", cursive;
   text-align: center;
   color: #333333;
+  margin-bottom: 14px;
+  padding-top: 68px;
 }
 
 .head-block {
@@ -135,7 +141,8 @@ ul {
   color: #333333;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 108px;
+  /* margin-bottom: 108px; */
+  padding-bottom: 48px;
 }
 
 .amazing-services-list {
@@ -233,7 +240,7 @@ h2::after {
 .wrapper-team {
   width: 1200px;
   margin: 0 auto;
-  padding-bottom: 76px;
+  padding: 40px;
 }
 
 .team-text {
