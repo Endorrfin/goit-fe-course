@@ -1,0 +1,21 @@
+.team-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-list .background-effect:hover img,
+.team-list .background-effect:hover .group-social-icons {
+  visibility: visible;
+  transform: translate(-3%, -3%);
+  transition: transform, box-shadow;
+  box-shadow: 10px 10px 0 #95e1d3;
+  transition-duration: 200ms;
+}
+
+.team-list .background-effect:hover .group-social-icons img {
+  box-shadow: none;
+}

@@ -1,0 +1,21 @@
+.head-block {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+  font-family: "Montserrat", "Arial", sans-serif;
+  text-align: center;
+  color: #333333;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 84px;
+
+  &::after {
+    display: block;
+    width: 61px;
+    height: 3px;
+    background-color: #f38181;
+    content: "";
+    margin: 44px 0;
+    margin: 32px auto 0;
+  }
+}

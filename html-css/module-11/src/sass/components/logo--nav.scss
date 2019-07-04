@@ -1,0 +1,13 @@
+.logo--nav {
+  color: $primary-white-color;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  list-style: none;
+
+  &:hover,
+  &:focus {
+    color: #fce38a;
+    border-bottom: 2px solid #fce38a;
+  }
+}

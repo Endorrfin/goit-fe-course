@@ -1,0 +1,67 @@
+.amazing-services-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.amazing-services-list li {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  width: 330px;
+  padding-left: 60px;
+}
+
+.amazing-services-list li:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 100px;
+}
+
+.amazing-services-list li::before {
+  content: "";
+  display: block;
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  top: -2px;
+  left: 6px;
+}
+
+.amazing-services-list li:nth-child(1)::before {
+  background-image: url('../images/sprite/icon-alarm.svg');
+  width: 32px;
+  height: 32px;
+}
+  
+.amazing-services-list li:nth-child(2)::before {
+  background-image: url('../images/sprite/icon-frame.svg');
+  width: 32px;
+  height: 32px;
+}
+  
+.amazing-services-list li:nth-child(3)::before {
+  background-image: url('../images/sprite/icon-computer.svg');
+  width: 32px;
+  height: 32px;
+}
+  
+.amazing-services-list li:nth-child(4)::before {
+  background-image: url('../images/sprite/icon-seo.svg');
+  width: 32px;
+  height: 32px;
+}
+  
+.amazing-services-list li:nth-child(5)::before {
+  background-image: url('../images/sprite/icon-home.svg');
+  width: 32px;
+  height: 32px;
+}
+  
+.amazing-services-list li:nth-child(6)::before {
+  background-image: url('../images/sprite/icon-line_graph.svg');
+  width: 32px;
+  height: 32px;
+}

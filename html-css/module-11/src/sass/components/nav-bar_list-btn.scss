@@ -1,0 +1,13 @@
+.nav-bar_btn-cart,
+.nav-bar_btn-search {
+  margin: 0;
+  width: 26px;
+  height: 26px;
+  border: none;
+  font-size: 0;
+  background-color: transparent;
+}
+
+.nav-bar_list-btn:nth-last-child(1) .nav-bar_btn-search {background: url('../images/sprite/icon-search.svg') no-repeat center;}
+
+.nav-bar_list-btn:nth-last-child(2) .nav-bar_btn-cart {background: url('../images/sprite/icon-cart.svg') no-repeat center;}

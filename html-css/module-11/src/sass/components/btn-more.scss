@@ -1,0 +1,16 @@
+.btn-more {
+  display: block;
+  width: 160px;
+  height: 40px;
+  margin: auto;
+  border: solid 3px;
+  background-color: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  &:hover {
+    color: #e88482;
+    border-color: #e88482;
+    background-color: #eab894;
+  }
+}

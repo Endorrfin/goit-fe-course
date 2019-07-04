@@ -1,24 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Placeholder title</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.min.css" />
-  </head>
-  <body>
-    <header class="header">
-      <a href="" class="header__logo">Logo</a>
-      <nav class="navigation">
-        <a href="" class="navigation__link navigation__link--active">link to 1</a>
-        <a href="" class="navigation__link">link to 2</a>
-        <a href="" class="navigation__link">link to 3</a>
-        <a href="" class="navigation__link">link to 4</a>
-        <a href="" class="navigation__link">link to 5</a>
-        <a href="" class="navigation__link">link to 6</a>
-        <a href="" class="navigation__link">link to 7</a>
-      </nav>
-    </header>
-  </body>
+    <title>Module #11 HW</title>
+</head>
+
+<body class="body">
+    <!-- 
+             Модуль 10 - Домашнее задание
+	• Сделать верстку макета homework-10
+	• Для обеспечения некоторой доли кроссбраузерости подключаем normalize.css.
+	• Сделать верстку страницы, используя BEM-именование для классов, выделить повторяющиеся компоненты.
+	• Изображения из секции Meet our team и фоновое изображение верхней части страницы подготовить к retina экранам, достаточно 1x и 2x.
+	• Интерактивные иконки в макете сделать используя внешний SVG-спрайт. Реализовать эффект hover на иконках карточек. Иконки взять из макета.
+    • Добавить вендорные префиксы, используя Autoprefixer.
+    • Оптимизировать изображения, используя сервис http://optimizilla.com/ или https://pnggauntlet.com/ для растровых. https://jakearchibald.github.io/svgomg/ для векторных изображений.
+     -->
+
+    <!-- NAVIGATION SECTION -->
+    <section class="nav-section">
+        <header class="header">
+            <nav class="nav-bar">
+                <a href="#" class="logo--nav">MoGo</a>
+                <ul class="nav-bar_menu-list">
+                    <li class="nav-bar_list-item"><a href="">About</a></li>
+                    <li class="nav-bar_list-item"><a href="">Service</a></li>
+                    <li class="nav-bar_list-item"><a href="">Work</a></li>
+                    <li class="nav-bar_list-item"><a href="">Blog</a></li>
+                    <li class="nav-bar_list-item"><a href="">Contact</a></li>
+                    <li class="nav-bar_list-btn">
+                        <button title="Cart" class="nav-bar_btn-cart">Cart</button>
+                    </li>
+                    <li class="nav-bar_list-btn">
+                        <button title="Cart" class="nav-bar_btn-search">Serch</button>
+                    </li>
+                </ul>
+            </nav>
+            <p class="head-greeting">Creative Template</p>
+            <p class="head-invitation">Welcome<br>to MoGo</p>
+            <button class="btn-more">learn more</button>
+        </header>
+    </section>
+
+    <!-- AMAZING SERVICES SECTION -->
+
+    <main class="container">
+        <div class="wrapper-amazing-services">
+            <h1 class="visually-hidden">Web-page MoGo</h1>
+            <section class="amazing-services-section">
+                <p class="preview-text">We work with</p>
+                <h2 class="head-block">Amazing services</h2>
+
+                <ul class="amazing-services-list">
+                    <li class="amazing-services-list-item">
+                        <h3 class="position">Photography</h3>
+                        <p class="about-position">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor.</p>
+                    </li>
+                    <li class="amazing-services-list-item">
+                        <h3 class="position">Web Design</h3>
+                        <p class="about-position">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor.</p>
+                    </li>
+                    <li class="amazing-services-list-item">
+                        <h3 class="position">Creativity</h3>
+                        <p class="about-position">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor.</p>
+                    </li>
+                    <li class="amazing-services-list-item">
+                        <h3 class="position">Seo</h3>
+                        <p class="about-position">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                    </li>
+                    <li class="amazing-services-list-item">
+                        <h3 class="position">Css/Html</h3>
+                        <p class="about-position">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                    </li>
+                    <li class="amazing-services-list-item">
+                        <h3 class="position">Digital</h3>
+                        <p class="about-position">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- MEET OUR TEAM SECTION -->
+
+
+        <section class="team-section">
+            <div class="wrapper-team">
+                <p class="preview-text">Who we are</p>
+                <h2 class="head-block">Meet our team</h2>
+                <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <ul class="team-list">
+                    <li class="team-list-item">
+                        <div class="background-effect">
+                            <img class="team-list-image" src="images/photos/matthew.jpg" alt="team member image" width="380"
+                                height="470" srcset="images/photos/matthew@2x.jpg">
+                            <div class="group-social-icons">
+                                <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                        <use href="../images/sprite/icon-sprite.svg#icon-facebook"></use>
+                                    </svg></a>
+                                <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                        <use href="../images/sprite/icon-sprite.svg#icon-twitter"></use>
+                                    </svg></a>
+                                <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                        <use href="../images/sprite/icon-sprite.svg#icon-pinterest"></use>
+                                    </svg></a>
+                                <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                        <use href="../images/sprite/icon-sprite.svg#icon-instagram"></use>
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <h3 class="team-list-name">Matthew Dix</h3>
+                        <p class="team-list-occupation">Graphic Design</p>
+                    </li>
+                    <li class="team-list-item">
+                        <div class="background-effect">
+                            <img class="team-list-image" src="images/photos/cris.jpg" alt="team member image" width="380"
+                                height="470" srcset="images/photos/cris@2x.jpg">
+                            <div class="group-social-icons">
+                                <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                    <use href="../images/sprite/icon-sprite.svg#icon-facebook"></use>
+                                </svg></a>
+                            <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                    <use href="../images/sprite/icon-sprite.svg#icon-twitter"></use>
+                                </svg></a>
+                            <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                    <use href="../images/sprite/icon-sprite.svg#icon-pinterest"></use>
+                                </svg></a>
+                            <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                    <use href="../images/sprite/icon-sprite.svg#icon-instagram"></use>
+                                </svg></a>
+                            </div>
+                        </div>
+                        <h3 class="team-list-name">Christopher Campbell</h3>
+                        <p class="team-list-occupation">Branding/UX design</p>
+                    </li>
+                    <li class="team-list-item">
+                        <div class="background-effect">
+                            <img class="team-list-image" src="images/photos/michael.jpg" alt="team member image" width="380"
+                                height="470" srcset="images/photos/michael@2x.jpg">
+                            <div class="group-social-icons">
+                                <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                    <use href="../images/sprite/icon-sprite.svg#icon-facebook"></use>
+                                </svg></a>
+                            <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                    <use href="../images/sprite/icon-sprite.svg#icon-twitter"></use>
+                                </svg></a>
+                            <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                    <use href="../images/sprite/icon-sprite.svg#icon-pinterest"></use>
+                                </svg></a>
+                            <a href="#"><svg class="socials__icon" width="26px" height="26px">
+                                    <use href="../images/sprite/icon-sprite.svg#icon-instagram"></use>
+                                </svg></a>
+                            </div>
+                        </div>
+                        <h3 class="team-list-name">Michael Fertig</h3>
+                        <p class="team-list-occupation">Developer</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="page-footer container ">
+        <p>&#169; 2016 MoGo free PSD template by <a href="">Laaqiq</a></p>
+
+            <form action="URL">
+                <input type="text" placeholder="Your Email...">
+                <input type="button" value="subscribe">
+            </form>
+    </footer>
+</body>
+
 </html>
